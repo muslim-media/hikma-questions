@@ -1,0 +1,10 @@
+version: 1
+questions:
+  - id: qcm-0001
+    difficulty: easy
+    tags:
+      - general
+  - id: qcm-0002
+    difficulty: easy
+    tags:
+      - general
