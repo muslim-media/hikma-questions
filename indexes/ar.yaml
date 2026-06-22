@@ -1,27 +1,74 @@
-version: 1
+version: 2
 questions:
   - id: qcm-0001
-    name: qcm-0001
     difficulty: easy
     tags:
-      - qcm
+      - general
   - id: qcm-0002
-    name: qcm-0002
     difficulty: easy
     tags:
-      - qcm
+      - general
   - id: qcm-din-fitra-0031
-    name: qcm-din-fitra-0031
     difficulty: easy
     tags:
-      - qcm-din-fitra
+      - din-fitra
   - id: qcm-din-fitra-0032
-    name: qcm-din-fitra-0032
     difficulty: easy
     tags:
-      - qcm-din-fitra
+      - din-fitra
   - id: qcm-din-fitra-0033
-    name: qcm-din-fitra-0033
     difficulty: easy
     tags:
-      - qcm-din-fitra
+      - din-fitra
+  - id: qcm-din-fitra-0034
+    difficulty: medium
+    tags:
+      - din-fitra
+      - aqida
+      - fitra
+  - id: qcm-din-fitra-0035
+    difficulty: easy
+    tags:
+      - din-fitra
+      - comparative-religion
+  - id: qcm-din-fitra-0036
+    difficulty: easy
+    tags:
+      - din-fitra
+      - civilization
+  - id: qcm-din-fitra-0037
+    difficulty: medium
+    tags:
+      - din-fitra
+      - definition-of-religion
+  - id: qcm-din-fitra-0038
+    difficulty: easy
+    tags:
+      - din-fitra
+      - definition-of-religion
+  - id: qcm-din-fitra-0039
+    difficulty: medium
+    tags:
+      - din-fitra
+      - definition-of-religion
+  - id: qcm-din-fitra-0040
+    difficulty: medium
+    tags:
+      - din-fitra
+      - philosophy
+  - id: qcm-din-fitra-0041
+    difficulty: hard
+    tags:
+      - din-fitra
+      - iman
+      - aqida
+  - id: qcm-din-fitra-0042
+    difficulty: medium
+    tags:
+      - din-fitra
+      - prophethood
+  - id: qcm-din-fitra-0043
+    difficulty: medium
+    tags:
+      - din-fitra
+      - secularism
