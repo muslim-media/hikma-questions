@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "generated_at": "2026-06-22T21:38:34Z",
+  "generated_at": "2026-06-22T22:22:48Z",
   "languages": {
     "ar": {
-      "count": 15,
-      "updated_at": "2026-06-22T21:38:34Z"
+      "count": 65,
+      "updated_at": "2026-06-22T22:22:48Z"
     },
     "en": {
       "count": 2,
-      "updated_at": "2026-06-22T21:38:34Z"
+      "updated_at": "2026-06-22T22:22:48Z"
     },
     "fr": {
-      "count": 2,
-      "updated_at": "2026-06-22T21:38:34Z"
+      "count": 52,
+      "updated_at": "2026-06-22T22:22:48Z"
     }
   }
 }

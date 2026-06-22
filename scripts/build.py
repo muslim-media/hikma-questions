@@ -89,55 +89,50 @@ def build() -> None:
     errors = []
     by_lang: dict[str, list[dict]] = defaultdict(list)
 
-    for topic_dir in sorted(QUESTIONS_DIR.iterdir()):
-        if not topic_dir.is_dir():
+    q_dirs = sorted(p.parent for p in QUESTIONS_DIR.rglob("metadata.yaml"))
+    for q_dir in q_dirs:
+        meta_file = q_dir / "metadata.yaml"
+        if not meta_file.exists():
+            errors.append(f"[{q_dir.name}] missing metadata.yaml")
             continue
-        for q_dir in sorted(topic_dir.iterdir()):
-            if not q_dir.is_dir():
-                continue
 
-            meta_file = q_dir / "metadata.yaml"
-            if not meta_file.exists():
-                errors.append(f"[{q_dir.name}] missing metadata.yaml")
-                continue
+        try:
+            meta = load_metadata(meta_file)
+        except Exception as e:
+            errors.append(f"[{q_dir.name}] metadata.yaml parse error: {e}")
+            continue
 
+        declared_langs = meta.get("languages") or []
+        content: dict[str, dict] = {}
+        for lang_file in sorted(q_dir.glob("*.md")):
+            lang = lang_file.stem
             try:
-                meta = load_metadata(meta_file)
-            except Exception as e:
-                errors.append(f"[{q_dir.name}] metadata.yaml parse error: {e}")
-                continue
+                content[lang] = parse_md(lang_file.read_text(encoding="utf-8"))
+            except ValueError as e:
+                errors.append(f"[{q_dir.name}/{lang}.md] {e}")
 
-            declared_langs = meta.get("languages") or []
-            content: dict[str, dict] = {}
-            for lang_file in sorted(q_dir.glob("*.md")):
-                lang = lang_file.stem
-                try:
-                    content[lang] = parse_md(lang_file.read_text(encoding="utf-8"))
-                except ValueError as e:
-                    errors.append(f"[{q_dir.name}/{lang}.md] {e}")
+        for lang in declared_langs:
+            if lang not in content:
+                errors.append(
+                    f"[{q_dir.name}] metadata declares language '{lang}' but {lang}.md not found"
+                )
 
-            for lang in declared_langs:
-                if lang not in content:
-                    errors.append(
-                        f"[{q_dir.name}] metadata declares language '{lang}' but {lang}.md not found"
-                    )
+        if not content:
+            errors.append(f"[{q_dir.name}] no language files found")
+            continue
 
-            if not content:
-                errors.append(f"[{q_dir.name}] no language files found")
-                continue
+        q_meta = {
+            "id": meta.get("id", q_dir.name),
+            "topic": meta.get("topic", q_dir.parent.name),
+            "difficulty": meta.get("difficulty", "easy"),
+            "tags": meta.get("tags") or [],
+            "source": meta.get("source"),
+            "created_at": meta.get("created_at"),
+            "version": int(meta.get("version") or 1),
+        }
 
-            q_meta = {
-                "id": meta.get("id", q_dir.name),
-                "topic": meta.get("topic", topic_dir.name),
-                "difficulty": meta.get("difficulty", "easy"),
-                "tags": meta.get("tags") or [],
-                "source": meta.get("source"),
-                "created_at": meta.get("created_at"),
-                "version": int(meta.get("version") or 1),
-            }
-
-            for lang, lang_content in content.items():
-                by_lang[lang].append({**q_meta, **lang_content})
+        for lang, lang_content in content.items():
+            by_lang[lang].append({**q_meta, **lang_content})
 
     if errors:
         print("BUILD FAILED — validation errors:", file=sys.stderr)

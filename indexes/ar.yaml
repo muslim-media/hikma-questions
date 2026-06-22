@@ -72,3 +72,311 @@ questions:
     tags:
       - din-fitra
       - secularism
+  - id: qcm-kids-islam-0001
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - basics
+  - id: qcm-kids-islam-0002
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - basics
+  - id: qcm-kids-islam-0003
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salat
+  - id: qcm-kids-islam-0004
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - prophets
+  - id: qcm-kids-islam-0005
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salat
+  - id: qcm-kids-islam-0006
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - pillars
+  - id: qcm-kids-islam-0007
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - sawm
+      - ramadan
+  - id: qcm-kids-islam-0008
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - halal-haram
+  - id: qcm-kids-islam-0009
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr
+  - id: qcm-kids-islam-0010
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - eid
+      - ramadan
+  - id: qcm-kids-islam-0011
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - hajj
+      - pillars
+  - id: qcm-kids-islam-0012
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - angels
+      - quran
+  - id: qcm-kids-islam-0013
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - pillars
+      - shahada
+  - id: qcm-kids-islam-0014
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salam
+  - id: qcm-kids-islam-0015
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - quran
+      - ramadan
+  - id: qcm-kids-islam-0016
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - quran
+  - id: qcm-kids-islam-0017
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - quran
+  - id: qcm-kids-islam-0018
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salat
+  - id: qcm-kids-islam-0019
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - zakat
+      - pillars
+  - id: qcm-kids-islam-0020
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr
+  - id: qcm-kids-islam-0021
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - kaaba
+  - id: qcm-kids-islam-0022
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - eid
+  - id: qcm-kids-islam-0023
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - wudu
+  - id: qcm-kids-islam-0024
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr
+  - id: qcm-kids-islam-0025
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - prophets
+  - id: qcm-kids-islam-0026
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - ramadan
+  - id: qcm-kids-islam-0027
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr
+  - id: qcm-kids-islam-0028
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr
+  - id: qcm-kids-islam-0029
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - hadith
+  - id: qcm-kids-islam-0030
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - hajj
+  - id: qcm-kids-islam-0031
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - quran
+  - id: qcm-kids-islam-0032
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - prophets
+  - id: qcm-kids-islam-0033
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - history
+  - id: qcm-kids-islam-0034
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - mosque
+  - id: qcm-kids-islam-0035
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr
+  - id: qcm-kids-islam-0036
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - quran
+  - id: qcm-kids-islam-0037
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - quran
+  - id: qcm-kids-islam-0038
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salat
+  - id: qcm-kids-islam-0039
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - basics
+  - id: qcm-kids-islam-0040
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - angels
+  - id: qcm-kids-islam-0041
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - prophets
+  - id: qcm-kids-islam-0042
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salat
+  - id: qcm-kids-islam-0043
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - asma-ul-husna
+  - id: qcm-kids-islam-0044
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr
+  - id: qcm-kids-islam-0045
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - aqida
+  - id: qcm-kids-islam-0046
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salat
+      - quran
+  - id: qcm-kids-islam-0047
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - mosque
+  - id: qcm-kids-islam-0048
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - prophets
+  - id: qcm-kids-islam-0049
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - salat
+  - id: qcm-kids-islam-0050
+    difficulty: easy
+    tags:
+      - kids
+      - islam
+      - dhikr

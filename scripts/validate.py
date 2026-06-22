@@ -40,7 +40,7 @@ def load_metadata(path: Path) -> dict:
     return meta
 
 
-def check_question(q_dir: Path, topic: str) -> None:
+def check_question(q_dir: Path, topic: str = "") -> None:
     meta_file = q_dir / "metadata.yaml"
 
     if not meta_file.exists():
@@ -53,7 +53,7 @@ def check_question(q_dir: Path, topic: str) -> None:
     if missing:
         errors.append(f"{q_dir.name}: metadata missing fields: {missing}")
 
-    if meta.get("topic") and meta["topic"] != topic:
+    if topic and meta.get("topic") and meta["topic"] != topic:
         errors.append(
             f"{q_dir.name}: metadata.topic='{meta['topic']}' but folder is '{topic}'"
         )
@@ -79,12 +79,9 @@ def check_question(q_dir: Path, topic: str) -> None:
             )
 
 
-for topic_dir in sorted(QUESTIONS_DIR.iterdir()):
-    if not topic_dir.is_dir():
-        continue
-    for q_dir in sorted(topic_dir.iterdir()):
-        if q_dir.is_dir():
-            check_question(q_dir, topic_dir.name)
+q_dirs = sorted(p.parent for p in QUESTIONS_DIR.rglob("metadata.yaml"))
+for q_dir in q_dirs:
+    check_question(q_dir)
 
 if warnings:
     for w in warnings:
@@ -96,4 +93,4 @@ if errors:
         print(f"  ERROR {e}", file=sys.stderr)
     sys.exit(1)
 
-print(f"Validation passed ({sum(1 for t in QUESTIONS_DIR.iterdir() if t.is_dir() for q in t.iterdir() if q.is_dir())} questions)")
+print(f"Validation passed ({len(q_dirs)} questions)")

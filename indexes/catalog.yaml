@@ -3,3 +3,9 @@ translation:
   - ar
   - en
   - fr
+topics:
+  - id: kids-islam
+    path: kids/islam
+    translation:
+      - fr
+      - ar
