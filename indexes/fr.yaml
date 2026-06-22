@@ -1,4 +1,12 @@
 version: 1
 questions:
-  - qcm-0001
-  - qcm-0002
+  - id: qcm-0001
+    name: qcm-0001
+    difficulty: easy
+    tags:
+      - qcm
+  - id: qcm-0002
+    name: qcm-0002
+    difficulty: easy
+    tags:
+      - qcm

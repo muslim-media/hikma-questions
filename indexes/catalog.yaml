@@ -1,10 +1,5 @@
-version: 2
-questions:
-  - id: qcm-0001
-    difficulty: easy
-    tags:
-      - general
-  - id: qcm-0002
-    difficulty: easy
-    tags:
-      - general
+version: 1
+transalation:
+  - ar
+  - en
+  - fr

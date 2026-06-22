@@ -1,7 +1,27 @@
 version: 1
 questions:
-  - qcm-0001
-  - qcm-0002
-  - qcm-din-fitra-0031
-  - qcm-din-fitra-0032
-  - qcm-din-fitra-0033
+  - id: qcm-0001
+    name: qcm-0001
+    difficulty: easy
+    tags:
+      - qcm
+  - id: qcm-0002
+    name: qcm-0002
+    difficulty: easy
+    tags:
+      - qcm
+  - id: qcm-din-fitra-0031
+    name: qcm-din-fitra-0031
+    difficulty: easy
+    tags:
+      - qcm-din-fitra
+  - id: qcm-din-fitra-0032
+    name: qcm-din-fitra-0032
+    difficulty: easy
+    tags:
+      - qcm-din-fitra
+  - id: qcm-din-fitra-0033
+    name: qcm-din-fitra-0033
+    difficulty: easy
+    tags:
+      - qcm-din-fitra
