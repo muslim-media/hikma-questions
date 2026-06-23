@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generated_at": "2026-06-23T12:23:42Z",
+  "version": 2,
+  "generated_at": "2026-06-23T15:26:32Z",
   "language": "ar",
   "formations": [
     {
@@ -8,14 +8,15 @@
       "title": "دين الفطرة",
       "description": "أسئلة حول كتاب دين الفطرة — الفقه والعقيدة وفلسفة الدين",
       "question_count": 13,
-      "categories": [
+      "tree": [
         {
           "id": "aqida",
           "title": "العقيدة والإيمان",
           "path": [
             "aqida"
           ],
-          "question_count": 2
+          "question_count": 2,
+          "children": []
         },
         {
           "id": "definition-de-la-religion",
@@ -23,7 +24,8 @@
           "path": [
             "definition-de-la-religion"
           ],
-          "question_count": 4
+          "question_count": 4,
+          "children": []
         },
         {
           "id": "fiqh",
@@ -31,7 +33,8 @@
           "path": [
             "fiqh"
           ],
-          "question_count": 3
+          "question_count": 3,
+          "children": []
         },
         {
           "id": "islam-et-modernite",
@@ -39,7 +42,8 @@
           "path": [
             "islam-et-modernite"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         },
         {
           "id": "philosophie",
@@ -47,7 +51,8 @@
           "path": [
             "philosophie"
           ],
-          "question_count": 2
+          "question_count": 2,
+          "children": []
         },
         {
           "id": "prophetie-et-soufisme",
@@ -55,7 +60,8 @@
           "path": [
             "prophetie-et-soufisme"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         }
       ]
     },
@@ -64,14 +70,15 @@
       "title": "ثقافة عامة",
       "description": "أسئلة الثقافة العامة",
       "question_count": 2,
-      "categories": [
+      "tree": [
         {
           "id": "astronomy",
           "title": "علم الفلك",
           "path": [
             "astronomy"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         },
         {
           "id": "geography",
@@ -79,7 +86,8 @@
           "path": [
             "geography"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         }
       ]
     },
@@ -88,41 +96,46 @@
       "title": "الإسلام للأطفال",
       "description": "اكتشاف أساسيات الإسلام بطريقة بسيطة ومناسبة للأطفال",
       "question_count": 50,
-      "categories": [
+      "tree": [
         {
           "id": "aqida",
           "title": "العقيدة",
           "path": [
             "aqida"
           ],
-          "question_count": 4
-        },
-        {
-          "id": "angels",
-          "title": "الملائكة",
-          "path": [
-            "aqida",
-            "angels"
-          ],
-          "question_count": 2
-        },
-        {
-          "id": "asma-ul-husna",
-          "title": "أسماء الله الحسنى",
-          "path": [
-            "aqida",
-            "asma-ul-husna"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "jannah",
-          "title": "الجنة",
-          "path": [
-            "aqida",
-            "jannah"
-          ],
-          "question_count": 1
+          "question_count": 4,
+          "children": [
+            {
+              "id": "angels",
+              "title": "الملائكة",
+              "path": [
+                "aqida",
+                "angels"
+              ],
+              "question_count": 2,
+              "children": []
+            },
+            {
+              "id": "asma-ul-husna",
+              "title": "أسماء الله الحسنى",
+              "path": [
+                "aqida",
+                "asma-ul-husna"
+              ],
+              "question_count": 1,
+              "children": []
+            },
+            {
+              "id": "jannah",
+              "title": "الجنة",
+              "path": [
+                "aqida",
+                "jannah"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         },
         {
           "id": "basics",
@@ -130,43 +143,49 @@
           "path": [
             "basics"
           ],
-          "question_count": 16
-        },
-        {
-          "id": "dhikr",
-          "title": "الذكر",
-          "path": [
-            "basics",
-            "dhikr"
-          ],
-          "question_count": 8
-        },
-        {
-          "id": "hadith",
-          "title": "الحديث والسنة",
-          "path": [
-            "basics",
-            "hadith"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "mosque",
-          "title": "المسجد",
-          "path": [
-            "basics",
-            "mosque"
-          ],
-          "question_count": 2
-        },
-        {
-          "id": "salam",
-          "title": "السلام",
-          "path": [
-            "basics",
-            "salam"
-          ],
-          "question_count": 1
+          "question_count": 16,
+          "children": [
+            {
+              "id": "dhikr",
+              "title": "الذكر",
+              "path": [
+                "basics",
+                "dhikr"
+              ],
+              "question_count": 8,
+              "children": []
+            },
+            {
+              "id": "hadith",
+              "title": "الحديث والسنة",
+              "path": [
+                "basics",
+                "hadith"
+              ],
+              "question_count": 1,
+              "children": []
+            },
+            {
+              "id": "mosque",
+              "title": "المسجد",
+              "path": [
+                "basics",
+                "mosque"
+              ],
+              "question_count": 2,
+              "children": []
+            },
+            {
+              "id": "salam",
+              "title": "السلام",
+              "path": [
+                "basics",
+                "salam"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         },
         {
           "id": "pillars",
@@ -174,92 +193,104 @@
           "path": [
             "pillars"
           ],
-          "question_count": 18
-        },
-        {
-          "id": "hajj",
-          "title": "الحج",
-          "path": [
-            "pillars",
-            "hajj"
-          ],
-          "question_count": 4
-        },
-        {
-          "id": "ramadan",
-          "title": "شهر رمضان",
-          "path": [
-            "pillars",
-            "ramadan"
-          ],
-          "question_count": 3
-        },
-        {
-          "id": "salat",
-          "title": "الصلاة",
-          "path": [
-            "pillars",
-            "salat"
-          ],
-          "question_count": 8
-        },
-        {
-          "id": "fajr",
-          "title": "صلاة الفجر",
-          "path": [
-            "pillars",
-            "salat",
-            "fajr"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "qibla",
-          "title": "القبلة",
-          "path": [
-            "pillars",
-            "salat",
-            "qibla"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "rakaat",
-          "title": "الركعات",
-          "path": [
-            "pillars",
-            "salat",
-            "rakaat"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "wudu",
-          "title": "الوضوء",
-          "path": [
-            "pillars",
-            "salat",
-            "wudu"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "shahada",
-          "title": "الشهادة",
-          "path": [
-            "pillars",
-            "shahada"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "zakat",
-          "title": "الزكاة",
-          "path": [
-            "pillars",
-            "zakat"
-          ],
-          "question_count": 1
+          "question_count": 18,
+          "children": [
+            {
+              "id": "hajj",
+              "title": "الحج",
+              "path": [
+                "pillars",
+                "hajj"
+              ],
+              "question_count": 4,
+              "children": []
+            },
+            {
+              "id": "ramadan",
+              "title": "شهر رمضان",
+              "path": [
+                "pillars",
+                "ramadan"
+              ],
+              "question_count": 3,
+              "children": []
+            },
+            {
+              "id": "salat",
+              "title": "الصلاة",
+              "path": [
+                "pillars",
+                "salat"
+              ],
+              "question_count": 8,
+              "children": [
+                {
+                  "id": "fajr",
+                  "title": "صلاة الفجر",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "fajr"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                },
+                {
+                  "id": "qibla",
+                  "title": "القبلة",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "qibla"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                },
+                {
+                  "id": "rakaat",
+                  "title": "الركعات",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "rakaat"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                },
+                {
+                  "id": "wudu",
+                  "title": "الوضوء",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "wudu"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "shahada",
+              "title": "الشهادة",
+              "path": [
+                "pillars",
+                "shahada"
+              ],
+              "question_count": 1,
+              "children": []
+            },
+            {
+              "id": "zakat",
+              "title": "الزكاة",
+              "path": [
+                "pillars",
+                "zakat"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         },
         {
           "id": "prophets",
@@ -267,7 +298,8 @@
           "path": [
             "prophets"
           ],
-          "question_count": 6
+          "question_count": 6,
+          "children": []
         },
         {
           "id": "quran",
@@ -275,16 +307,19 @@
           "path": [
             "quran"
           ],
-          "question_count": 6
-        },
-        {
-          "id": "fatiha",
-          "title": "سورة الفاتحة",
-          "path": [
-            "quran",
-            "fatiha"
-          ],
-          "question_count": 1
+          "question_count": 6,
+          "children": [
+            {
+              "id": "fatiha",
+              "title": "سورة الفاتحة",
+              "path": [
+                "quran",
+                "fatiha"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         }
       ]
     }

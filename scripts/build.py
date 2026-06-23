@@ -96,6 +96,31 @@ def load_metadata(path: Path) -> dict:
     return meta
 
 
+def build_category_tree(counts: dict, cat_store: dict, fid: str, lang: str) -> list:
+    nodes: dict = {}
+    roots: list = []
+    for path_tuple in sorted(counts, key=len):
+        path_list = list(path_tuple)
+        cat_id = path_list[-1]
+        store_key = (fid,) + path_tuple
+        cat_meta = cat_store.get(store_key, {})
+        title = cat_meta.get(f"title_{lang}") or cat_meta.get("title_en") or cat_id
+        node = {
+            "id": cat_id,
+            "title": title,
+            "path": path_list,
+            "question_count": counts[path_tuple],
+            "children": [],
+        }
+        nodes[path_tuple] = node
+        parent = path_tuple[:-1]
+        if parent in nodes:
+            nodes[parent]["children"].append(node)
+        else:
+            roots.append(node)
+    return roots
+
+
 def merge_tags(meta: dict, lang: str) -> list:
     global_tags = meta.get("tags") or []
     lang_tags = (meta.get("tags_by_lang") or {}).get(lang) or []
@@ -193,7 +218,7 @@ def build() -> None:
     manifest_file.write_text(
         json.dumps(
             {
-                "version": 1,
+                "version": 2,
                 "generated_at": today,
                 "formations": {
                     fid: {
@@ -219,33 +244,20 @@ def build() -> None:
             title = fmeta.get(f"title_{lang}") or fmeta.get("title_en") or fid
             description = fmeta.get(f"description_{lang}") or fmeta.get("description_en") or None
 
-            categories_out = []
-            for cat_path_tuple, count in sorted(cat_counts[lang][fid].items()):
-                cat_path_list = list(cat_path_tuple)
-                cat_id = cat_path_list[-1]
-                store_key = (fid,) + cat_path_tuple
-                cat_meta = category_store.get(store_key, {})
-                cat_title = cat_meta.get(f"title_{lang}") or cat_meta.get("title_en") or cat_id
-                categories_out.append({
-                    "id": cat_id,
-                    "title": cat_title,
-                    "path": cat_path_list,
-                    "question_count": count,
-                })
-
+            tree = build_category_tree(cat_counts[lang][fid], category_store, fid, lang)
             formations_out.append({
                 "id": fid,
                 "title": title,
                 "description": description,
                 "question_count": len(lang_qs),
-                "categories": categories_out,
+                "tree": tree,
             })
 
         lang_file = DIST_DIR / f"questions_{lang}.json"
         lang_file.write_text(
             json.dumps(
                 {
-                    "version": 1,
+                    "version": 2,
                     "generated_at": today,
                     "language": lang,
                     "formations": formations_out,

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generated_at": "2026-06-23T12:23:42Z",
+  "version": 2,
+  "generated_at": "2026-06-23T15:26:32Z",
   "language": "en",
   "formations": [
     {
@@ -8,14 +8,15 @@
       "title": "General knowledge",
       "description": "General knowledge questions",
       "question_count": 2,
-      "categories": [
+      "tree": [
         {
           "id": "astronomy",
           "title": "Astronomy",
           "path": [
             "astronomy"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         },
         {
           "id": "geography",
@@ -23,7 +24,8 @@
           "path": [
             "geography"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         }
       ]
     }

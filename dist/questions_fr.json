@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generated_at": "2026-06-23T12:23:42Z",
+  "version": 2,
+  "generated_at": "2026-06-23T15:26:32Z",
   "language": "fr",
   "formations": [
     {
@@ -8,14 +8,15 @@
       "title": "Culture générale",
       "description": "Questions de culture générale",
       "question_count": 2,
-      "categories": [
+      "tree": [
         {
           "id": "astronomy",
           "title": "Astronomie",
           "path": [
             "astronomy"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         },
         {
           "id": "geography",
@@ -23,7 +24,8 @@
           "path": [
             "geography"
           ],
-          "question_count": 1
+          "question_count": 1,
+          "children": []
         }
       ]
     },
@@ -32,41 +34,46 @@
       "title": "Islam pour les enfants",
       "description": "Découvrir les bases de l'islam de manière simple et adaptée aux enfants",
       "question_count": 50,
-      "categories": [
+      "tree": [
         {
           "id": "aqida",
           "title": "L'Aqida (croyance)",
           "path": [
             "aqida"
           ],
-          "question_count": 4
-        },
-        {
-          "id": "angels",
-          "title": "Les Anges",
-          "path": [
-            "aqida",
-            "angels"
-          ],
-          "question_count": 2
-        },
-        {
-          "id": "asma-ul-husna",
-          "title": "Les Noms d'Allah",
-          "path": [
-            "aqida",
-            "asma-ul-husna"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "jannah",
-          "title": "La Jannah (paradis)",
-          "path": [
-            "aqida",
-            "jannah"
-          ],
-          "question_count": 1
+          "question_count": 4,
+          "children": [
+            {
+              "id": "angels",
+              "title": "Les Anges",
+              "path": [
+                "aqida",
+                "angels"
+              ],
+              "question_count": 2,
+              "children": []
+            },
+            {
+              "id": "asma-ul-husna",
+              "title": "Les Noms d'Allah",
+              "path": [
+                "aqida",
+                "asma-ul-husna"
+              ],
+              "question_count": 1,
+              "children": []
+            },
+            {
+              "id": "jannah",
+              "title": "La Jannah (paradis)",
+              "path": [
+                "aqida",
+                "jannah"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         },
         {
           "id": "basics",
@@ -74,43 +81,49 @@
           "path": [
             "basics"
           ],
-          "question_count": 16
-        },
-        {
-          "id": "dhikr",
-          "title": "Le dhikr",
-          "path": [
-            "basics",
-            "dhikr"
-          ],
-          "question_count": 8
-        },
-        {
-          "id": "hadith",
-          "title": "Le hadith et la sunna",
-          "path": [
-            "basics",
-            "hadith"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "mosque",
-          "title": "La mosquée",
-          "path": [
-            "basics",
-            "mosque"
-          ],
-          "question_count": 2
-        },
-        {
-          "id": "salam",
-          "title": "Le salam",
-          "path": [
-            "basics",
-            "salam"
-          ],
-          "question_count": 1
+          "question_count": 16,
+          "children": [
+            {
+              "id": "dhikr",
+              "title": "Le dhikr",
+              "path": [
+                "basics",
+                "dhikr"
+              ],
+              "question_count": 8,
+              "children": []
+            },
+            {
+              "id": "hadith",
+              "title": "Le hadith et la sunna",
+              "path": [
+                "basics",
+                "hadith"
+              ],
+              "question_count": 1,
+              "children": []
+            },
+            {
+              "id": "mosque",
+              "title": "La mosquée",
+              "path": [
+                "basics",
+                "mosque"
+              ],
+              "question_count": 2,
+              "children": []
+            },
+            {
+              "id": "salam",
+              "title": "Le salam",
+              "path": [
+                "basics",
+                "salam"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         },
         {
           "id": "pillars",
@@ -118,92 +131,104 @@
           "path": [
             "pillars"
           ],
-          "question_count": 18
-        },
-        {
-          "id": "hajj",
-          "title": "Le Hajj",
-          "path": [
-            "pillars",
-            "hajj"
-          ],
-          "question_count": 4
-        },
-        {
-          "id": "ramadan",
-          "title": "Le Ramadan",
-          "path": [
-            "pillars",
-            "ramadan"
-          ],
-          "question_count": 3
-        },
-        {
-          "id": "salat",
-          "title": "La Salat (prière)",
-          "path": [
-            "pillars",
-            "salat"
-          ],
-          "question_count": 8
-        },
-        {
-          "id": "fajr",
-          "title": "La prière du Fajr",
-          "path": [
-            "pillars",
-            "salat",
-            "fajr"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "qibla",
-          "title": "La Qibla",
-          "path": [
-            "pillars",
-            "salat",
-            "qibla"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "rakaat",
-          "title": "Les rakaats",
-          "path": [
-            "pillars",
-            "salat",
-            "rakaat"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "wudu",
-          "title": "Le Wudu (ablutions)",
-          "path": [
-            "pillars",
-            "salat",
-            "wudu"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "shahada",
-          "title": "La Shahada",
-          "path": [
-            "pillars",
-            "shahada"
-          ],
-          "question_count": 1
-        },
-        {
-          "id": "zakat",
-          "title": "La Zakat",
-          "path": [
-            "pillars",
-            "zakat"
-          ],
-          "question_count": 1
+          "question_count": 18,
+          "children": [
+            {
+              "id": "hajj",
+              "title": "Le Hajj",
+              "path": [
+                "pillars",
+                "hajj"
+              ],
+              "question_count": 4,
+              "children": []
+            },
+            {
+              "id": "ramadan",
+              "title": "Le Ramadan",
+              "path": [
+                "pillars",
+                "ramadan"
+              ],
+              "question_count": 3,
+              "children": []
+            },
+            {
+              "id": "salat",
+              "title": "La Salat (prière)",
+              "path": [
+                "pillars",
+                "salat"
+              ],
+              "question_count": 8,
+              "children": [
+                {
+                  "id": "fajr",
+                  "title": "La prière du Fajr",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "fajr"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                },
+                {
+                  "id": "qibla",
+                  "title": "La Qibla",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "qibla"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                },
+                {
+                  "id": "rakaat",
+                  "title": "Les rakaats",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "rakaat"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                },
+                {
+                  "id": "wudu",
+                  "title": "Le Wudu (ablutions)",
+                  "path": [
+                    "pillars",
+                    "salat",
+                    "wudu"
+                  ],
+                  "question_count": 1,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "shahada",
+              "title": "La Shahada",
+              "path": [
+                "pillars",
+                "shahada"
+              ],
+              "question_count": 1,
+              "children": []
+            },
+            {
+              "id": "zakat",
+              "title": "La Zakat",
+              "path": [
+                "pillars",
+                "zakat"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         },
         {
           "id": "prophets",
@@ -211,7 +236,8 @@
           "path": [
             "prophets"
           ],
-          "question_count": 6
+          "question_count": 6,
+          "children": []
         },
         {
           "id": "quran",
@@ -219,16 +245,19 @@
           "path": [
             "quran"
           ],
-          "question_count": 6
-        },
-        {
-          "id": "fatiha",
-          "title": "La Fatiha",
-          "path": [
-            "quran",
-            "fatiha"
-          ],
-          "question_count": 1
+          "question_count": 6,
+          "children": [
+            {
+              "id": "fatiha",
+              "title": "La Fatiha",
+              "path": [
+                "quran",
+                "fatiha"
+              ],
+              "question_count": 1,
+              "children": []
+            }
+          ]
         }
       ]
     }
