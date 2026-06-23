@@ -1,39 +1,51 @@
 {
-  "version": 2,
-  "generated_at": "2026-06-22T22:22:48Z",
-  "lang": "en",
-  "count": 2,
+  "version": 1,
+  "generated_at": "2026-06-23T11:47:00Z",
+  "language": "en",
+  "formations": [
+    {
+      "id": "general",
+      "title": "General knowledge",
+      "description": "General knowledge questions",
+      "question_count": 2,
+      "categories": [
+        {
+          "id": "astronomy",
+          "title": "Astronomy",
+          "path": [
+            "astronomy"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "geography",
+          "title": "Geography",
+          "path": [
+            "geography"
+          ],
+          "question_count": 1
+        }
+      ]
+    }
+  ],
   "questions": [
     {
-      "id": "qcm-0001",
-      "topic": "general",
-      "difficulty": "easy",
-      "tags": [
-        "geography"
+      "id": "qcm-0002",
+      "formation_id": "general",
+      "categories": [
+        "astronomy"
       ],
+      "category_paths": [
+        [
+          "astronomy"
+        ]
+      ],
+      "difficulty": "easy",
       "source": null,
       "created_at": "2026-02-01",
-      "version": 1,
-      "question": "How many continents are there on Earth?",
-      "choices": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "answer": 2,
-      "explanation": "The most common model recognizes 7 continents."
-    },
-    {
-      "id": "qcm-0002",
-      "topic": "general",
-      "difficulty": "easy",
       "tags": [
         "astronomy"
       ],
-      "source": null,
-      "created_at": "2026-02-01",
-      "version": 1,
       "question": "Which planet is known as the Red Planet?",
       "choices": [
         "Venus",
@@ -43,6 +55,33 @@
       ],
       "answer": 1,
       "explanation": "Mars is known as the Red Planet because of its reddish appearance."
+    },
+    {
+      "id": "qcm-0001",
+      "formation_id": "general",
+      "categories": [
+        "geography"
+      ],
+      "category_paths": [
+        [
+          "geography"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-02-01",
+      "tags": [
+        "geography"
+      ],
+      "question": "How many continents are there on Earth?",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "The most common model recognizes 7 continents."
     }
   ]
 }

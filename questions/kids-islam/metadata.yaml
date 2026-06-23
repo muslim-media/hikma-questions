@@ -1,0 +1,9 @@
+type: formation
+id: kids-islam
+title_fr: Islam pour les enfants
+title_ar: الإسلام للأطفال
+description_fr: Découvrir les bases de l'islam de manière simple et adaptée aux enfants
+description_ar: اكتشاف أساسيات الإسلام بطريقة بسيطة ومناسبة للأطفال
+languages:
+  - fr
+  - ar

@@ -1,39 +1,256 @@
 {
-  "version": 2,
-  "generated_at": "2026-06-22T22:22:48Z",
-  "lang": "fr",
-  "count": 52,
-  "questions": [
+  "version": 1,
+  "generated_at": "2026-06-23T11:47:00Z",
+  "language": "fr",
+  "formations": [
     {
-      "id": "qcm-0001",
-      "topic": "general",
-      "difficulty": "easy",
-      "tags": [
-        "geography"
-      ],
-      "source": null,
-      "created_at": "2026-02-01",
-      "version": 1,
-      "question": "Combien y a-t-il de continents sur Terre ?",
-      "choices": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "answer": 2,
-      "explanation": "Le modèle le plus répandu considère qu'il existe 7 continents."
+      "id": "general",
+      "title": "Culture générale",
+      "description": "Questions de culture générale",
+      "question_count": 2,
+      "categories": [
+        {
+          "id": "astronomy",
+          "title": "Astronomie",
+          "path": [
+            "astronomy"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "geography",
+          "title": "Géographie",
+          "path": [
+            "geography"
+          ],
+          "question_count": 1
+        }
+      ]
     },
     {
+      "id": "kids-islam",
+      "title": "Islam pour les enfants",
+      "description": "Découvrir les bases de l'islam de manière simple et adaptée aux enfants",
+      "question_count": 50,
+      "categories": [
+        {
+          "id": "aqida",
+          "title": "L'Aqida (croyance)",
+          "path": [
+            "aqida"
+          ],
+          "question_count": 4
+        },
+        {
+          "id": "angels",
+          "title": "Les Anges",
+          "path": [
+            "aqida",
+            "angels"
+          ],
+          "question_count": 2
+        },
+        {
+          "id": "asma-ul-husna",
+          "title": "Les Noms d'Allah",
+          "path": [
+            "aqida",
+            "asma-ul-husna"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "jannah",
+          "title": "La Jannah (paradis)",
+          "path": [
+            "aqida",
+            "jannah"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "basics",
+          "title": "Les bases",
+          "path": [
+            "basics"
+          ],
+          "question_count": 16
+        },
+        {
+          "id": "dhikr",
+          "title": "Le dhikr",
+          "path": [
+            "basics",
+            "dhikr"
+          ],
+          "question_count": 8
+        },
+        {
+          "id": "hadith",
+          "title": "Le hadith et la sunna",
+          "path": [
+            "basics",
+            "hadith"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "mosque",
+          "title": "La mosquée",
+          "path": [
+            "basics",
+            "mosque"
+          ],
+          "question_count": 2
+        },
+        {
+          "id": "salam",
+          "title": "Le salam",
+          "path": [
+            "basics",
+            "salam"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "pillars",
+          "title": "Les 5 piliers",
+          "path": [
+            "pillars"
+          ],
+          "question_count": 18
+        },
+        {
+          "id": "hajj",
+          "title": "Le Hajj",
+          "path": [
+            "pillars",
+            "hajj"
+          ],
+          "question_count": 4
+        },
+        {
+          "id": "ramadan",
+          "title": "Le Ramadan",
+          "path": [
+            "pillars",
+            "ramadan"
+          ],
+          "question_count": 3
+        },
+        {
+          "id": "salat",
+          "title": "La Salat (prière)",
+          "path": [
+            "pillars",
+            "salat"
+          ],
+          "question_count": 8
+        },
+        {
+          "id": "fajr",
+          "title": "La prière du Fajr",
+          "path": [
+            "pillars",
+            "salat",
+            "fajr"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "qibla",
+          "title": "La Qibla",
+          "path": [
+            "pillars",
+            "salat",
+            "qibla"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "rakaat",
+          "title": "Les rakaats",
+          "path": [
+            "pillars",
+            "salat",
+            "rakaat"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "wudu",
+          "title": "Le Wudu (ablutions)",
+          "path": [
+            "pillars",
+            "salat",
+            "wudu"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "shahada",
+          "title": "La Shahada",
+          "path": [
+            "pillars",
+            "shahada"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "zakat",
+          "title": "La Zakat",
+          "path": [
+            "pillars",
+            "zakat"
+          ],
+          "question_count": 1
+        },
+        {
+          "id": "prophets",
+          "title": "Les Prophètes",
+          "path": [
+            "prophets"
+          ],
+          "question_count": 6
+        },
+        {
+          "id": "quran",
+          "title": "Le Coran",
+          "path": [
+            "quran"
+          ],
+          "question_count": 6
+        },
+        {
+          "id": "fatiha",
+          "title": "La Fatiha",
+          "path": [
+            "quran",
+            "fatiha"
+          ],
+          "question_count": 1
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
       "id": "qcm-0002",
-      "topic": "general",
+      "formation_id": "general",
+      "categories": [
+        "astronomy"
+      ],
+      "category_paths": [
+        [
+          "astronomy"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-02-01",
       "tags": [
         "astronomy"
       ],
-      "source": null,
-      "created_at": "2026-02-01",
-      "version": 1,
       "question": "Quelle planète est connue comme la planète rouge ?",
       "choices": [
         "Venus",
@@ -45,267 +262,57 @@
       "explanation": "Mars est appelée la planète rouge en raison de sa couleur."
     },
     {
-      "id": "qcm-kids-islam-0001",
-      "topic": "kids-islam",
+      "id": "qcm-0001",
+      "formation_id": "general",
+      "categories": [
+        "geography"
+      ],
+      "category_paths": [
+        [
+          "geography"
+        ]
+      ],
       "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "basics"
-      ],
       "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle notre religion ?",
-      "choices": [
-        "Islam",
-        "Christianisme",
-        "Judaïsme",
-        "Bouddhisme"
-      ],
-      "answer": 0,
-      "explanation": "Notre religion s'appelle l'Islam. Les personnes qui pratiquent l'Islam s'appellent des musulmans."
-    },
-    {
-      "id": "qcm-kids-islam-0002",
-      "topic": "kids-islam",
-      "difficulty": "easy",
+      "created_at": "2026-02-01",
       "tags": [
-        "kids",
-        "islam",
-        "basics"
+        "geography"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle le livre sacré des musulmans ?",
+      "question": "Combien y a-t-il de continents sur Terre ?",
       "choices": [
-        "Le Coran",
-        "La Bible",
-        "La Torah",
-        "Le Psautier"
-      ],
-      "answer": 0,
-      "explanation": "Le livre sacré des musulmans s'appelle le Coran. C'est la parole d'Allah révélée au Prophète Muhammad ﷺ."
-    },
-    {
-      "id": "qcm-kids-islam-0003",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "basics",
-        "salat"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien de fois par jour un musulman doit-il prier ?",
-      "choices": [
-        "3 fois",
-        "5 fois",
-        "7 fois",
-        "10 fois"
-      ],
-      "answer": 1,
-      "explanation": "Un musulman prie 5 fois par jour : Fajr (matin), Dhuhr (midi), Asr (après-midi), Maghrib (soir) et Isha (nuit)."
-    },
-    {
-      "id": "qcm-kids-islam-0004",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "prophets"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Qui est le dernier prophète de l'Islam ?",
-      "choices": [
-        "Ibrahim",
-        "Moussa",
-        "Issa",
-        "Mohammad"
-      ],
-      "answer": 3,
-      "explanation": "Muhammad ﷺ est le dernier prophète envoyé par Allah. On dit après son nom : \"salla Allahu alayhi wa sallam\" (que la paix et les bénédictions d'Allah soient sur lui)."
-    },
-    {
-      "id": "qcm-kids-islam-0005",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "basics",
-        "salat"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Vers quelle ville les musulmans se tournent-ils pour prier ?",
-      "choices": [
-        "Médine",
-        "Jérusalem",
-        "La Mecque",
-        "Istanbul"
-      ],
-      "answer": 2,
-      "explanation": "Les musulmans se tournent vers La Mecque, en Arabie Saoudite, pour prier. Cette direction s'appelle la Qibla."
-    },
-    {
-      "id": "qcm-kids-islam-0006",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "pillars"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien y a-t-il de piliers de l'Islam ?",
-      "choices": [
-        "3",
-        "4",
         "5",
-        "6"
+        "6",
+        "7",
+        "8"
       ],
       "answer": 2,
-      "explanation": "Il y a 5 piliers de l'Islam : la Chahada (témoignage de foi), la Salat (prière), la Zakat (aumône), le Sawm (jeûne) et le Hajj (pèlerinage)."
-    },
-    {
-      "id": "qcm-kids-islam-0007",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "sawm",
-        "ramadan"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle le mois de jeûne des musulmans ?",
-      "choices": [
-        "Chawwal",
-        "Ramadan",
-        "Mouharram",
-        "Rajab"
-      ],
-      "answer": 1,
-      "explanation": "Le Ramadan est le 9ème mois du calendrier islamique. Pendant ce mois, les musulmans ne mangent pas et ne boivent pas de l'aube jusqu'au coucher du soleil."
-    },
-    {
-      "id": "qcm-kids-islam-0008",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "halal-haram",
-        "fiqh"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Quel animal est interdit à manger pour les musulmans ?",
-      "choices": [
-        "Le mouton",
-        "Le bœuf",
-        "Le porc",
-        "La chèvre"
-      ],
-      "answer": 2,
-      "explanation": "Le porc est interdit (haram) pour les musulmans. Les aliments autorisés s'appellent \"halal\"."
-    },
-    {
-      "id": "qcm-kids-islam-0009",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "dhikr",
-        "basics"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Que dit-on avant de commencer à manger ou à faire quelque chose ?",
-      "choices": [
-        "Alhamdulillah",
-        "Bismillah",
-        "Inshallah",
-        "Mashallah"
-      ],
-      "answer": 1,
-      "explanation": "On dit \"Bismillah\" avant de faire quelque chose. Ça veut dire \"Au nom d'Allah\". C'est une façon de commencer avec le souvenir d'Allah."
-    },
-    {
-      "id": "qcm-kids-islam-0010",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "eid",
-        "ramadan"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Quelle fête célèbre la fin du mois de Ramadan ?",
-      "choices": [
-        "Aïd el-Adha",
-        "Aïd el-Fitr",
-        "Mawlid",
-        "Achoura"
-      ],
-      "answer": 1,
-      "explanation": "L'Aïd el-Fitr est la fête qui célèbre la fin du Ramadan. \"Fitr\" veut dire \"rompre le jeûne\". C'est un jour de joie où les musulmans se retrouvent en famille."
-    },
-    {
-      "id": "qcm-kids-islam-0011",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "hajj",
-        "pillars"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien de fois dans sa vie un musulman doit-il faire le pèlerinage (s'il le peut) ?",
-      "choices": [
-        "1 fois",
-        "2 fois",
-        "5 fois",
-        "Chaque année"
-      ],
-      "answer": 0,
-      "explanation": "Le pèlerinage (Hajj) à La Mecque est obligatoire une seule fois dans la vie, pour celui qui en a les moyens. C'est le 5ème pilier de l'Islam."
+      "explanation": "Le modèle le plus répandu considère qu'il existe 7 continents."
     },
     {
       "id": "qcm-kids-islam-0012",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "aqida",
+        "angels"
+      ],
+      "category_paths": [
+        [
+          "aqida"
+        ],
+        [
+          "aqida",
+          "angels"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "angels",
         "quran"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Quel ange a apporté le Coran au Prophète Muhammad ﷺ ?",
       "choices": [
         "Mikail",
@@ -317,176 +324,170 @@
       "explanation": "C'est l'ange Jibril (Gabriel) qui a apporté le Coran au Prophète Muhammad ﷺ. Jibril est le messager entre Allah et Ses prophètes."
     },
     {
-      "id": "qcm-kids-islam-0013",
-      "topic": "kids-islam",
+      "id": "qcm-kids-islam-0040",
+      "formation_id": "kids-islam",
+      "categories": [
+        "aqida",
+        "angels"
+      ],
+      "category_paths": [
+        [
+          "aqida"
+        ],
+        [
+          "aqida",
+          "angels"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
-        "pillars",
-        "shahada"
+        "angels",
+        "aqida"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Quel est le premier pilier de l'Islam ?",
+      "question": "Combien d'anges gardiens accompagnent chaque être humain ?",
       "choices": [
-        "La Salat (prière)",
-        "La Zakat (aumône)",
-        "La Chahada (témoignage de foi)",
-        "Le Hajj (pèlerinage)"
+        "1 ange",
+        "2 anges",
+        "4 anges",
+        "10 anges"
       ],
-      "answer": 2,
-      "explanation": "La Chahada est le premier pilier. On dit : \"Achhadu an la ilaha illallah, wa achhadu anna Muhammadan rasulullah.\" Cela veut dire : \"Je témoigne qu'il n'y a de dieu qu'Allah, et que Muhammad est Son messager.\""
+      "answer": 1,
+      "explanation": "Chaque personne est accompagnée de 2 anges gardiens qui notent toutes ses actions : l'un note les bonnes actions et l'autre note les mauvaises. On les appelle \"Kiraman Katibin\" (les nobles scribes)."
     },
     {
-      "id": "qcm-kids-islam-0014",
-      "topic": "kids-islam",
+      "id": "qcm-kids-islam-0043",
+      "formation_id": "kids-islam",
+      "categories": [
+        "aqida",
+        "asma-ul-husna"
+      ],
+      "category_paths": [
+        [
+          "aqida"
+        ],
+        [
+          "aqida",
+          "asma-ul-husna"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
-        "basics",
-        "salam"
+        "asma-ul-husna",
+        "aqida"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment salue-t-on un autre musulman en Islam ?",
+      "question": "Combien y a-t-il de noms d'Allah (les beaux noms) ?",
       "choices": [
-        "Bonjour",
-        "Bismillah",
-        "Assalamu alaykum",
-        "Allahu Akbar"
-      ],
-      "answer": 2,
-      "explanation": "On dit \"Assalamu alaykum\" qui veut dire \"La paix soit sur toi\". On répond \"Wa alaykum assalam\" ce qui veut dire \"Et sur toi la paix\"."
-    },
-    {
-      "id": "qcm-kids-islam-0015",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "quran",
-        "ramadan"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "En quel mois le Coran a-t-il commencé à être révélé ?",
-      "choices": [
-        "Mouharram",
-        "Rajab",
-        "Chaban",
-        "Ramadan"
-      ],
-      "answer": 3,
-      "explanation": "Le Coran a commencé à être révélé au Prophète Muhammad ﷺ pendant le mois de Ramadan. C'est pour cela que ce mois est très spécial pour les musulmans."
-    },
-    {
-      "id": "qcm-kids-islam-0016",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "quran"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien y a-t-il de sourates (chapitres) dans le Coran ?",
-      "choices": [
+        "33",
+        "66",
         "99",
-        "114",
-        "120",
-        "100"
-      ],
-      "answer": 1,
-      "explanation": "Le Coran contient 114 sourates. La plus longue est Al-Baqara et la plus courte est Al-Kawthar (avec seulement 3 versets)."
-    },
-    {
-      "id": "qcm-kids-islam-0017",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "quran"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Quelle est la première sourate du Coran ?",
-      "choices": [
-        "Al-Baqara",
-        "Al-Ikhlas",
-        "Al-Fatiha",
-        "Al-Falaq"
+        "114"
       ],
       "answer": 2,
-      "explanation": "Al-Fatiha est la première sourate du Coran. Elle a 7 versets et on la récite dans chaque prière. \"Fatiha\" veut dire \"l'ouverture\"."
+      "explanation": "Allah a 99 beaux noms, comme \"Ar-Rahman\" (le Tout Miséricordieux), \"Al-Karim\" (le Généreux), \"Al-Hafiz\" (le Gardien). Chaque nom décrit une qualité parfaite d'Allah."
     },
     {
-      "id": "qcm-kids-islam-0018",
-      "topic": "kids-islam",
+      "id": "qcm-kids-islam-0045",
+      "formation_id": "kids-islam",
+      "categories": [
+        "aqida",
+        "jannah"
+      ],
+      "category_paths": [
+        [
+          "aqida"
+        ],
+        [
+          "aqida",
+          "jannah"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
-        "salat"
+        "aqida",
+        "jannah"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle la prière spéciale du vendredi ?",
+      "question": "Qu'est-ce que \"Al-Jannah\" ?",
       "choices": [
-        "La Fajr",
-        "La Jumu'a",
-        "La Asr",
-        "La Isha"
+        "L'enfer",
+        "Le paradis",
+        "Le jugement dernier",
+        "La résurrection"
       ],
       "answer": 1,
-      "explanation": "La prière du vendredi s'appelle la Jumu'a. C'est une prière spéciale que les musulmans font ensemble à la mosquée le vendredi à l'heure du Dhuhr."
+      "explanation": "Al-Jannah c'est le paradis ! C'est un endroit de bonheur et de paix qu'Allah a promis aux croyants. Il y a des jardins magnifiques, des rivières et tout ce que le cœur désire."
     },
     {
-      "id": "qcm-kids-islam-0019",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "zakat",
-        "pillars"
+      "id": "qcm-kids-islam-0009",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
       ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
+      "difficulty": "easy",
       "source": null,
       "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Qu'est-ce que la Zakat ?",
-      "choices": [
-        "Jeûner pendant le Ramadan",
-        "Prier cinq fois par jour",
-        "Donner une partie de son argent aux pauvres",
-        "Faire le pèlerinage à La Mecque"
-      ],
-      "answer": 2,
-      "explanation": "La Zakat, c'est donner une partie de son argent aux personnes qui en ont besoin. C'est le 3ème pilier de l'Islam. Ça nous apprend à être généreux et à penser aux autres."
-    },
-    {
-      "id": "qcm-kids-islam-0020",
-      "topic": "kids-islam",
-      "difficulty": "easy",
       "tags": [
         "kids",
         "islam",
         "dhikr",
         "basics"
       ],
+      "question": "Que dit-on avant de commencer à manger ou à faire quelque chose ?",
+      "choices": [
+        "Alhamdulillah",
+        "Bismillah",
+        "Inshallah",
+        "Mashallah"
+      ],
+      "answer": 1,
+      "explanation": "On dit \"Bismillah\" avant de faire quelque chose. Ça veut dire \"Au nom d'Allah\". C'est une façon de commencer avec le souvenir d'Allah."
+    },
+    {
+      "id": "qcm-kids-islam-0020",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
+      "difficulty": "easy",
       "source": null,
       "created_at": "2026-06-23",
-      "version": 1,
+      "tags": [
+        "kids",
+        "islam",
+        "dhikr",
+        "basics"
+      ],
       "question": "Que dit-on pour remercier Allah ?",
       "choices": [
         "Allahu Akbar",
@@ -498,87 +499,30 @@
       "explanation": "On dit \"Alhamdulillah\" pour remercier Allah. Ça veut dire \"Louange à Allah\" ou \"Merci Allah\". On peut le dire à tout moment, par exemple après avoir mangé ou quand quelque chose va bien."
     },
     {
-      "id": "qcm-kids-islam-0021",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "kaaba",
-        "hajj"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Quel est le nom de la grande maison sacrée d'Allah à La Mecque ?",
-      "choices": [
-        "Al-Aqsa",
-        "La Ka'ba",
-        "Al-Haram",
-        "Al-Masjid"
-      ],
-      "answer": 1,
-      "explanation": "La Ka'ba est la maison sacrée d'Allah à La Mecque. C'est un grand cube recouvert d'un tissu noir. Les musulmans font le tour de la Ka'ba 7 fois pendant le Hajj."
-    },
-    {
-      "id": "qcm-kids-islam-0022",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "eid",
-        "sacrifice"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle la 2ème grande fête des musulmans (la fête du sacrifice) ?",
-      "choices": [
-        "Aïd el-Fitr",
-        "Aïd el-Adha",
-        "Mawlid",
-        "Achoura"
-      ],
-      "answer": 1,
-      "explanation": "L'Aïd el-Adha est la fête du sacrifice. On rappelle l'histoire du prophète Ibrahim ﷺ qui était prêt à sacrifier son fils pour Allah. Les musulmans partagent la viande avec les pauvres et la famille."
-    },
-    {
-      "id": "qcm-kids-islam-0023",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "wudu",
-        "salat"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Que fait-on avant la prière pour se purifier ?",
-      "choices": [
-        "On prend une douche complète",
-        "On fait les ablutions (Wudu)",
-        "On jeûne",
-        "On lit le Coran"
-      ],
-      "answer": 1,
-      "explanation": "Avant de prier, on fait les ablutions appelées \"Wudu\". On se lave les mains, la bouche, le nez, le visage, les bras, la tête et les pieds. C'est une façon de se purifier avant de parler à Allah."
-    },
-    {
       "id": "qcm-kids-islam-0024",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "dhikr",
         "basics"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Que veut dire \"Allahu Akbar\" ?",
       "choices": [
         "Allah est unique",
@@ -590,64 +534,30 @@
       "explanation": "\"Allahu Akbar\" veut dire \"Allah est le plus grand\". On le dit au début de chaque prière et aussi quand on est heureux ou impressionné par quelque chose de beau."
     },
     {
-      "id": "qcm-kids-islam-0025",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "prophets",
-        "history"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Dans quelle ville le Prophète Muhammad ﷺ est-il né ?",
-      "choices": [
-        "Médine",
-        "Jérusalem",
-        "La Mecque",
-        "Taïf"
-      ],
-      "answer": 2,
-      "explanation": "Le Prophète Muhammad ﷺ est né à La Mecque, en Arabie Saoudite. Il est né en l'an de l'Éléphant, environ 570 après Jésus-Christ."
-    },
-    {
-      "id": "qcm-kids-islam-0026",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "ramadan",
-        "laylat-al-qadr"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle la nuit la plus sainte du Ramadan ?",
-      "choices": [
-        "Laylat al-Bara'a",
-        "Laylat al-Qadr",
-        "Laylat al-Jumua",
-        "Laylat al-Isra"
-      ],
-      "answer": 1,
-      "explanation": "Laylat al-Qadr veut dire \"la Nuit du Destin\". C'est la nuit la plus importante du Ramadan. Le Coran dit qu'elle vaut mieux que mille mois ! Elle se trouve dans les derniers 10 jours du Ramadan."
-    },
-    {
       "id": "qcm-kids-islam-0027",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "dhikr",
         "basics"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Que veut dire \"Inshallah\" ?",
       "choices": [
         "Merci à Allah",
@@ -660,17 +570,29 @@
     },
     {
       "id": "qcm-kids-islam-0028",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "dhikr",
         "basics"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Que veut dire \"Mashallah\" ?",
       "choices": [
         "Si Allah le veut",
@@ -682,18 +604,135 @@
       "explanation": "\"Mashallah\" veut dire \"C'est ce qu'Allah a voulu\". On le dit quand on voit quelque chose de beau ou d'impressionnant, comme pour dire : \"Wow, c'est magnifique, et c'est grâce à Allah !\""
     },
     {
-      "id": "qcm-kids-islam-0029",
-      "topic": "kids-islam",
+      "id": "qcm-kids-islam-0035",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "dhikr",
+        "basics"
+      ],
+      "question": "Que veut dire \"Subhanallah\" ?",
+      "choices": [
+        "Allah est le plus grand",
+        "Si Allah le veut",
+        "Gloire à Allah, Il est parfait",
+        "Merci à Allah"
+      ],
+      "answer": 2,
+      "explanation": "\"Subhanallah\" veut dire \"Gloire à Allah\" ou \"Allah est parfait et sans défaut\". On le dit quand on voit quelque chose de beau dans la nature, comme le ciel étoilé ou une belle fleur."
+    },
+    {
+      "id": "qcm-kids-islam-0044",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "dhikr",
+        "manners"
+      ],
+      "question": "Que dit-on quand on éternue ?",
+      "choices": [
+        "Bismillah",
+        "Allahu Akbar",
+        "Alhamdulillah",
+        "Inshallah"
+      ],
+      "answer": 2,
+      "explanation": "Quand on éternue, on dit \"Alhamdulillah\" (Merci à Allah). Et si quelqu'un nous entend, il répond \"Yarhamukallah\" ce qui veut dire \"Qu'Allah te fasse miséricorde\". C'est une belle façon de se rappeler d'Allah dans la vie de tous les jours."
+    },
+    {
+      "id": "qcm-kids-islam-0050",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "dhikr"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "dhikr"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "dhikr",
+        "manners"
+      ],
+      "question": "Que veut dire \"Jazakallahu khayran\" ?",
+      "choices": [
+        "Qu'Allah te pardonne",
+        "Gloire à Allah",
+        "Qu'Allah te récompense par le bien",
+        "Si Allah le veut"
+      ],
+      "answer": 2,
+      "explanation": "\"Jazakallahu khayran\" veut dire \"Qu'Allah te récompense par le bien\". C'est la façon islamique de dire merci. On le dit pour remercier quelqu'un de sa gentillesse ou de son aide."
+    },
+    {
+      "id": "qcm-kids-islam-0029",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "hadith"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "hadith"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "hadith",
         "sunnah"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Comment s'appellent les paroles et les actions du Prophète Muhammad ﷺ que les musulmans suivent ?",
       "choices": [
         "Les Hadiths",
@@ -705,18 +744,358 @@
       "explanation": "Les Hadiths sont les paroles, les actions et les approbations du Prophète Muhammad ﷺ. Avec le Coran, les Hadiths guident les musulmans dans leur vie de tous les jours."
     },
     {
-      "id": "qcm-kids-islam-0030",
-      "topic": "kids-islam",
+      "id": "qcm-kids-islam-0034",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "mosque"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "mosque"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "mosque",
+        "basics"
+      ],
+      "question": "Qu'est-ce qu'une mosquée ?",
+      "choices": [
+        "Une école islamique",
+        "La maison où les musulmans prient ensemble",
+        "Un marché halal",
+        "La maison du Prophète ﷺ"
+      ],
+      "answer": 1,
+      "explanation": "Une mosquée est la maison d'Allah où les musulmans se retrouvent pour prier ensemble. En arabe, on dit \"Masjid\". Il y a des mosquées partout dans le monde."
+    },
+    {
+      "id": "qcm-kids-islam-0047",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "mosque"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "mosque"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "mosque",
+        "history"
+      ],
+      "question": "Comment s'appelle la grande mosquée de La Mecque ?",
+      "choices": [
+        "Masjid al-Nabawi",
+        "Masjid al-Aqsa",
+        "Masjid al-Haram",
+        "Masjid al-Quba"
+      ],
+      "answer": 2,
+      "explanation": "La grande mosquée de La Mecque s'appelle \"Masjid al-Haram\". C'est la plus grande mosquée du monde et elle entoure la Ka'ba. Des millions de musulmans la visitent chaque année."
+    },
+    {
+      "id": "qcm-kids-islam-0001",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "basics"
+      ],
+      "question": "Comment s'appelle notre religion ?",
+      "choices": [
+        "Islam",
+        "Christianisme",
+        "Judaïsme",
+        "Bouddhisme"
+      ],
+      "answer": 0,
+      "explanation": "Notre religion s'appelle l'Islam. Les personnes qui pratiquent l'Islam s'appellent des musulmans."
+    },
+    {
+      "id": "qcm-kids-islam-0002",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "basics"
+      ],
+      "question": "Comment s'appelle le livre sacré des musulmans ?",
+      "choices": [
+        "Le Coran",
+        "La Bible",
+        "La Torah",
+        "Le Psautier"
+      ],
+      "answer": 0,
+      "explanation": "Le livre sacré des musulmans s'appelle le Coran. C'est la parole d'Allah révélée au Prophète Muhammad ﷺ."
+    },
+    {
+      "id": "qcm-kids-islam-0008",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "halal-haram",
+        "fiqh"
+      ],
+      "question": "Quel animal est interdit à manger pour les musulmans ?",
+      "choices": [
+        "Le mouton",
+        "Le bœuf",
+        "Le porc",
+        "La chèvre"
+      ],
+      "answer": 2,
+      "explanation": "Le porc est interdit (haram) pour les musulmans. Les aliments autorisés s'appellent \"halal\"."
+    },
+    {
+      "id": "qcm-kids-islam-0039",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "basics",
+        "definition"
+      ],
+      "question": "Que veut dire le mot \"Musulman\" ?",
+      "choices": [
+        "Celui qui prie 5 fois par jour",
+        "Celui qui jeûne le Ramadan",
+        "Celui qui se soumet à Allah",
+        "Celui qui va à La Mecque"
+      ],
+      "answer": 2,
+      "explanation": "\"Musulman\" vient du mot arabe \"Islam\" qui veut dire \"soumission à Allah\". Un musulman est quelqu'un qui croit en Allah et suit Ses commandements avec amour et obéissance."
+    },
+    {
+      "id": "qcm-kids-islam-0014",
+      "formation_id": "kids-islam",
+      "categories": [
+        "basics",
+        "salam"
+      ],
+      "category_paths": [
+        [
+          "basics"
+        ],
+        [
+          "basics",
+          "salam"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "basics",
+        "salam"
+      ],
+      "question": "Comment salue-t-on un autre musulman en Islam ?",
+      "choices": [
+        "Bonjour",
+        "Bismillah",
+        "Assalamu alaykum",
+        "Allahu Akbar"
+      ],
+      "answer": 2,
+      "explanation": "On dit \"Assalamu alaykum\" qui veut dire \"La paix soit sur toi\". On répond \"Wa alaykum assalam\" ce qui veut dire \"Et sur toi la paix\"."
+    },
+    {
+      "id": "qcm-kids-islam-0011",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "hajj"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "hajj"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "hajj",
+        "pillars"
+      ],
+      "question": "Combien de fois dans sa vie un musulman doit-il faire le pèlerinage (s'il le peut) ?",
+      "choices": [
+        "1 fois",
+        "2 fois",
+        "5 fois",
+        "Chaque année"
+      ],
+      "answer": 0,
+      "explanation": "Le pèlerinage (Hajj) à La Mecque est obligatoire une seule fois dans la vie, pour celui qui en a les moyens. C'est le 5ème pilier de l'Islam."
+    },
+    {
+      "id": "qcm-kids-islam-0021",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "hajj"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "hajj"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "kaaba",
+        "hajj"
+      ],
+      "question": "Quel est le nom de la grande maison sacrée d'Allah à La Mecque ?",
+      "choices": [
+        "Al-Aqsa",
+        "La Ka'ba",
+        "Al-Haram",
+        "Al-Masjid"
+      ],
+      "answer": 1,
+      "explanation": "La Ka'ba est la maison sacrée d'Allah à La Mecque. C'est un grand cube recouvert d'un tissu noir. Les musulmans font le tour de la Ka'ba 7 fois pendant le Hajj."
+    },
+    {
+      "id": "qcm-kids-islam-0022",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "hajj"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "hajj"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "eid",
+        "sacrifice"
+      ],
+      "question": "Comment s'appelle la 2ème grande fête des musulmans (la fête du sacrifice) ?",
+      "choices": [
+        "Aïd el-Fitr",
+        "Aïd el-Adha",
+        "Mawlid",
+        "Achoura"
+      ],
+      "answer": 1,
+      "explanation": "L'Aïd el-Adha est la fête du sacrifice. On rappelle l'histoire du prophète Ibrahim ﷺ qui était prêt à sacrifier son fils pour Allah. Les musulmans partagent la viande avec les pauvres et la famille."
+    },
+    {
+      "id": "qcm-kids-islam-0030",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "hajj"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "hajj"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "hajj",
         "kaaba"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Combien de fois fait-on le tour de la Ka'ba (Tawaf) pendant le Hajj ?",
       "choices": [
         "3 fois",
@@ -728,41 +1107,592 @@
       "explanation": "Pendant le Hajj, les musulmans font 7 tours autour de la Ka'ba. Ça s'appelle le \"Tawaf\". On tourne toujours dans le sens inverse des aiguilles d'une montre."
     },
     {
-      "id": "qcm-kids-islam-0031",
-      "topic": "kids-islam",
+      "id": "qcm-kids-islam-0006",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
-        "quran",
-        "arabic"
+        "pillars"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Dans quelle langue le Coran a-t-il été révélé ?",
+      "question": "Combien y a-t-il de piliers de l'Islam ?",
       "choices": [
-        "Le persan",
-        "L'hébreu",
-        "L'arabe",
-        "Le turc"
+        "3",
+        "4",
+        "5",
+        "6"
       ],
       "answer": 2,
-      "explanation": "Le Coran a été révélé en arabe. C'est pour ça que les musulmans apprennent l'arabe pour lire et comprendre le Coran dans sa langue originale."
+      "explanation": "Il y a 5 piliers de l'Islam : la Chahada (témoignage de foi), la Salat (prière), la Zakat (aumône), le Sawm (jeûne) et le Hajj (pèlerinage)."
+    },
+    {
+      "id": "qcm-kids-islam-0007",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "ramadan"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "ramadan"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "sawm",
+        "ramadan"
+      ],
+      "question": "Comment s'appelle le mois de jeûne des musulmans ?",
+      "choices": [
+        "Chawwal",
+        "Ramadan",
+        "Mouharram",
+        "Rajab"
+      ],
+      "answer": 1,
+      "explanation": "Le Ramadan est le 9ème mois du calendrier islamique. Pendant ce mois, les musulmans ne mangent pas et ne boivent pas de l'aube jusqu'au coucher du soleil."
+    },
+    {
+      "id": "qcm-kids-islam-0010",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "ramadan"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "ramadan"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "eid",
+        "ramadan"
+      ],
+      "question": "Quelle fête célèbre la fin du mois de Ramadan ?",
+      "choices": [
+        "Aïd el-Adha",
+        "Aïd el-Fitr",
+        "Mawlid",
+        "Achoura"
+      ],
+      "answer": 1,
+      "explanation": "L'Aïd el-Fitr est la fête qui célèbre la fin du Ramadan. \"Fitr\" veut dire \"rompre le jeûne\". C'est un jour de joie où les musulmans se retrouvent en famille."
+    },
+    {
+      "id": "qcm-kids-islam-0026",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "ramadan"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "ramadan"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "ramadan",
+        "laylat-al-qadr"
+      ],
+      "question": "Comment s'appelle la nuit la plus sainte du Ramadan ?",
+      "choices": [
+        "Laylat al-Bara'a",
+        "Laylat al-Qadr",
+        "Laylat al-Jumua",
+        "Laylat al-Isra"
+      ],
+      "answer": 1,
+      "explanation": "Laylat al-Qadr veut dire \"la Nuit du Destin\". C'est la nuit la plus importante du Ramadan. Le Coran dit qu'elle vaut mieux que mille mois ! Elle se trouve dans les derniers 10 jours du Ramadan."
+    },
+    {
+      "id": "qcm-kids-islam-0038",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat",
+        "fajr"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ],
+        [
+          "pillars",
+          "salat",
+          "fajr"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "salat",
+        "fajr"
+      ],
+      "question": "Comment s'appelle la prière du matin, avant le lever du soleil ?",
+      "choices": [
+        "Dhuhr",
+        "Asr",
+        "Fajr",
+        "Maghrib"
+      ],
+      "answer": 2,
+      "explanation": "La prière du matin s'appelle \"Fajr\". Elle se fait avant le lever du soleil. C'est l'une des prières les plus importantes car la journée commence avec le souvenir d'Allah."
+    },
+    {
+      "id": "qcm-kids-islam-0003",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "basics",
+        "salat"
+      ],
+      "question": "Combien de fois par jour un musulman doit-il prier ?",
+      "choices": [
+        "3 fois",
+        "5 fois",
+        "7 fois",
+        "10 fois"
+      ],
+      "answer": 1,
+      "explanation": "Un musulman prie 5 fois par jour : Fajr (matin), Dhuhr (midi), Asr (après-midi), Maghrib (soir) et Isha (nuit)."
+    },
+    {
+      "id": "qcm-kids-islam-0005",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "basics",
+        "salat"
+      ],
+      "question": "Vers quelle ville les musulmans se tournent-ils pour prier ?",
+      "choices": [
+        "Médine",
+        "Jérusalem",
+        "La Mecque",
+        "Istanbul"
+      ],
+      "answer": 2,
+      "explanation": "Les musulmans se tournent vers La Mecque, en Arabie Saoudite, pour prier. Cette direction s'appelle la Qibla."
+    },
+    {
+      "id": "qcm-kids-islam-0018",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "salat"
+      ],
+      "question": "Comment s'appelle la prière spéciale du vendredi ?",
+      "choices": [
+        "La Fajr",
+        "La Jumu'a",
+        "La Asr",
+        "La Isha"
+      ],
+      "answer": 1,
+      "explanation": "La prière du vendredi s'appelle la Jumu'a. C'est une prière spéciale que les musulmans font ensemble à la mosquée le vendredi à l'heure du Dhuhr."
+    },
+    {
+      "id": "qcm-kids-islam-0046",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "salat",
+        "quran",
+        "fatiha"
+      ],
+      "question": "Quelle sourate doit-on réciter dans chaque rakaat (séquence) de la prière ?",
+      "choices": [
+        "Al-Baqara",
+        "Al-Fatiha",
+        "Al-Ikhlas",
+        "Al-Kahf"
+      ],
+      "answer": 1,
+      "explanation": "On récite Al-Fatiha dans chaque rakaat de la prière, c'est obligatoire. C'est pour ça qu'elle est très importante. Le Prophète ﷺ a dit qu'une prière sans Al-Fatiha n'est pas complète."
+    },
+    {
+      "id": "qcm-kids-islam-0042",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat",
+        "qibla"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ],
+        [
+          "pillars",
+          "salat",
+          "qibla"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "salat",
+        "qibla"
+      ],
+      "question": "Qu'est-ce que la \"Qibla\" ?",
+      "choices": [
+        "Le tapis de prière",
+        "La direction vers La Mecque pour prier",
+        "L'heure de la prière",
+        "Le livre de prières"
+      ],
+      "answer": 1,
+      "explanation": "La Qibla est la direction que les musulmans prennent quand ils prient. Partout dans le monde, les musulmans se tournent vers La Mecque pour faire la prière."
+    },
+    {
+      "id": "qcm-kids-islam-0049",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat",
+        "rakaat"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ],
+        [
+          "pillars",
+          "salat",
+          "rakaat"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "salat",
+        "rakaat"
+      ],
+      "question": "Combien de rakaat (séquences) a la prière de Fajr (matin) ?",
+      "choices": [
+        "2 rakaat",
+        "3 rakaat",
+        "4 rakaat",
+        "5 rakaat"
+      ],
+      "answer": 0,
+      "explanation": "La prière de Fajr a 2 rakaat (séquences). C'est la prière qui a le moins de rakaat. Les autres prières en ont plus : Dhuhr 4, Asr 4, Maghrib 3, Isha 4."
+    },
+    {
+      "id": "qcm-kids-islam-0023",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "salat",
+        "wudu"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "salat"
+        ],
+        [
+          "pillars",
+          "salat",
+          "wudu"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "wudu",
+        "salat"
+      ],
+      "question": "Que fait-on avant la prière pour se purifier ?",
+      "choices": [
+        "On prend une douche complète",
+        "On fait les ablutions (Wudu)",
+        "On jeûne",
+        "On lit le Coran"
+      ],
+      "answer": 1,
+      "explanation": "Avant de prier, on fait les ablutions appelées \"Wudu\". On se lave les mains, la bouche, le nez, le visage, les bras, la tête et les pieds. C'est une façon de se purifier avant de parler à Allah."
+    },
+    {
+      "id": "qcm-kids-islam-0013",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "shahada"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "shahada"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "pillars",
+        "shahada"
+      ],
+      "question": "Quel est le premier pilier de l'Islam ?",
+      "choices": [
+        "La Salat (prière)",
+        "La Zakat (aumône)",
+        "La Chahada (témoignage de foi)",
+        "Le Hajj (pèlerinage)"
+      ],
+      "answer": 2,
+      "explanation": "La Chahada est le premier pilier. On dit : \"Achhadu an la ilaha illallah, wa achhadu anna Muhammadan rasulullah.\" Cela veut dire : \"Je témoigne qu'il n'y a de dieu qu'Allah, et que Muhammad est Son messager.\""
+    },
+    {
+      "id": "qcm-kids-islam-0019",
+      "formation_id": "kids-islam",
+      "categories": [
+        "pillars",
+        "zakat"
+      ],
+      "category_paths": [
+        [
+          "pillars"
+        ],
+        [
+          "pillars",
+          "zakat"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "zakat",
+        "pillars"
+      ],
+      "question": "Qu'est-ce que la Zakat ?",
+      "choices": [
+        "Jeûner pendant le Ramadan",
+        "Prier cinq fois par jour",
+        "Donner une partie de son argent aux pauvres",
+        "Faire le pèlerinage à La Mecque"
+      ],
+      "answer": 2,
+      "explanation": "La Zakat, c'est donner une partie de son argent aux personnes qui en ont besoin. C'est le 3ème pilier de l'Islam. Ça nous apprend à être généreux et à penser aux autres."
+    },
+    {
+      "id": "qcm-kids-islam-0004",
+      "formation_id": "kids-islam",
+      "categories": [
+        "prophets"
+      ],
+      "category_paths": [
+        [
+          "prophets"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "prophets"
+      ],
+      "question": "Qui est le dernier prophète de l'Islam ?",
+      "choices": [
+        "Ibrahim",
+        "Moussa",
+        "Issa",
+        "Mohammad"
+      ],
+      "answer": 3,
+      "explanation": "Muhammad ﷺ est le dernier prophète envoyé par Allah. On dit après son nom : \"salla Allahu alayhi wa sallam\" (que la paix et les bénédictions d'Allah soient sur lui)."
+    },
+    {
+      "id": "qcm-kids-islam-0025",
+      "formation_id": "kids-islam",
+      "categories": [
+        "prophets"
+      ],
+      "category_paths": [
+        [
+          "prophets"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "prophets",
+        "history"
+      ],
+      "question": "Dans quelle ville le Prophète Muhammad ﷺ est-il né ?",
+      "choices": [
+        "Médine",
+        "Jérusalem",
+        "La Mecque",
+        "Taïf"
+      ],
+      "answer": 2,
+      "explanation": "Le Prophète Muhammad ﷺ est né à La Mecque, en Arabie Saoudite. Il est né en l'an de l'Éléphant, environ 570 après Jésus-Christ."
     },
     {
       "id": "qcm-kids-islam-0032",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "prophets"
+      ],
+      "category_paths": [
+        [
+          "prophets"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "prophets",
         "kaaba"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Quel prophète a construit la Ka'ba avec son fils Ismaïl ?",
       "choices": [
         "Adam ﷺ",
@@ -775,17 +1705,24 @@
     },
     {
       "id": "qcm-kids-islam-0033",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "prophets"
+      ],
+      "category_paths": [
+        [
+          "prophets"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "history",
         "prophets"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Dans quelle ville le Prophète Muhammad ﷺ est-il mort et enterré ?",
       "choices": [
         "La Mecque",
@@ -797,178 +1734,25 @@
       "explanation": "Le Prophète Muhammad ﷺ est mort et enterré à Médine. Sa mosquée s'appelle \"Masjid al-Nabawi\" (la mosquée du Prophète). Des millions de musulmans la visitent chaque année."
     },
     {
-      "id": "qcm-kids-islam-0034",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "mosque",
-        "basics"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Qu'est-ce qu'une mosquée ?",
-      "choices": [
-        "Une école islamique",
-        "La maison où les musulmans prient ensemble",
-        "Un marché halal",
-        "La maison du Prophète ﷺ"
-      ],
-      "answer": 1,
-      "explanation": "Une mosquée est la maison d'Allah où les musulmans se retrouvent pour prier ensemble. En arabe, on dit \"Masjid\". Il y a des mosquées partout dans le monde."
-    },
-    {
-      "id": "qcm-kids-islam-0035",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "dhikr",
-        "basics"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Que veut dire \"Subhanallah\" ?",
-      "choices": [
-        "Allah est le plus grand",
-        "Si Allah le veut",
-        "Gloire à Allah, Il est parfait",
-        "Merci à Allah"
-      ],
-      "answer": 2,
-      "explanation": "\"Subhanallah\" veut dire \"Gloire à Allah\" ou \"Allah est parfait et sans défaut\". On le dit quand on voit quelque chose de beau dans la nature, comme le ciel étoilé ou une belle fleur."
-    },
-    {
-      "id": "qcm-kids-islam-0036",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "quran"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Quelle est la sourate la plus courte du Coran (avec seulement 3 versets) ?",
-      "choices": [
-        "Al-Fatiha",
-        "Al-Ikhlas",
-        "Al-Kawthar",
-        "Al-Falaq"
-      ],
-      "answer": 2,
-      "explanation": "Al-Kawthar est la sourate la plus courte du Coran avec seulement 3 versets. \"Kawthar\" veut dire \"l'abondance\". Allah promet dans cette sourate de nombreux bienfaits au Prophète ﷺ."
-    },
-    {
-      "id": "qcm-kids-islam-0037",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "quran",
-        "fatiha"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien de versets a la sourate Al-Fatiha ?",
-      "choices": [
-        "3 versets",
-        "5 versets",
-        "7 versets",
-        "10 versets"
-      ],
-      "answer": 2,
-      "explanation": "Al-Fatiha a 7 versets. C'est la sourate qu'on récite dans chaque rakaat (séquence) de la prière. C'est pourquoi on l'appelle aussi \"Umm al-Kitab\" (la mère du Livre)."
-    },
-    {
-      "id": "qcm-kids-islam-0038",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "salat",
-        "fajr"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle la prière du matin, avant le lever du soleil ?",
-      "choices": [
-        "Dhuhr",
-        "Asr",
-        "Fajr",
-        "Maghrib"
-      ],
-      "answer": 2,
-      "explanation": "La prière du matin s'appelle \"Fajr\". Elle se fait avant le lever du soleil. C'est l'une des prières les plus importantes car la journée commence avec le souvenir d'Allah."
-    },
-    {
-      "id": "qcm-kids-islam-0039",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "basics",
-        "definition"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Que veut dire le mot \"Musulman\" ?",
-      "choices": [
-        "Celui qui prie 5 fois par jour",
-        "Celui qui jeûne le Ramadan",
-        "Celui qui se soumet à Allah",
-        "Celui qui va à La Mecque"
-      ],
-      "answer": 2,
-      "explanation": "\"Musulman\" vient du mot arabe \"Islam\" qui veut dire \"soumission à Allah\". Un musulman est quelqu'un qui croit en Allah et suit Ses commandements avec amour et obéissance."
-    },
-    {
-      "id": "qcm-kids-islam-0040",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "angels",
-        "aqida"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien d'anges gardiens accompagnent chaque être humain ?",
-      "choices": [
-        "1 ange",
-        "2 anges",
-        "4 anges",
-        "10 anges"
-      ],
-      "answer": 1,
-      "explanation": "Chaque personne est accompagnée de 2 anges gardiens qui notent toutes ses actions : l'un note les bonnes actions et l'autre note les mauvaises. On les appelle \"Kiraman Katibin\" (les nobles scribes)."
-    },
-    {
       "id": "qcm-kids-islam-0041",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "prophets"
+      ],
+      "category_paths": [
+        [
+          "prophets"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "prophets",
         "stories"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Quel prophète est connu pour avoir vécu dans le ventre d'une grande baleine ?",
       "choices": [
         "Ibrahim ﷺ",
@@ -980,157 +1764,25 @@
       "explanation": "Le prophète Yunus ﷺ (appelé Jonas en français) a vécu dans le ventre d'une grande baleine. Il priait Allah de l'en sortir, et Allah l'a exaucé. Son histoire nous apprend de ne jamais désespérer d'Allah."
     },
     {
-      "id": "qcm-kids-islam-0042",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "salat",
-        "qibla"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Qu'est-ce que la \"Qibla\" ?",
-      "choices": [
-        "Le tapis de prière",
-        "La direction vers La Mecque pour prier",
-        "L'heure de la prière",
-        "Le livre de prières"
-      ],
-      "answer": 1,
-      "explanation": "La Qibla est la direction que les musulmans prennent quand ils prient. Partout dans le monde, les musulmans se tournent vers La Mecque pour faire la prière."
-    },
-    {
-      "id": "qcm-kids-islam-0043",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "asma-ul-husna",
-        "aqida"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien y a-t-il de noms d'Allah (les beaux noms) ?",
-      "choices": [
-        "33",
-        "66",
-        "99",
-        "114"
-      ],
-      "answer": 2,
-      "explanation": "Allah a 99 beaux noms, comme \"Ar-Rahman\" (le Tout Miséricordieux), \"Al-Karim\" (le Généreux), \"Al-Hafiz\" (le Gardien). Chaque nom décrit une qualité parfaite d'Allah."
-    },
-    {
-      "id": "qcm-kids-islam-0044",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "dhikr",
-        "manners"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Que dit-on quand on éternue ?",
-      "choices": [
-        "Bismillah",
-        "Allahu Akbar",
-        "Alhamdulillah",
-        "Inshallah"
-      ],
-      "answer": 2,
-      "explanation": "Quand on éternue, on dit \"Alhamdulillah\" (Merci à Allah). Et si quelqu'un nous entend, il répond \"Yarhamukallah\" ce qui veut dire \"Qu'Allah te fasse miséricorde\". C'est une belle façon de se rappeler d'Allah dans la vie de tous les jours."
-    },
-    {
-      "id": "qcm-kids-islam-0045",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "aqida",
-        "jannah"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Qu'est-ce que \"Al-Jannah\" ?",
-      "choices": [
-        "L'enfer",
-        "Le paradis",
-        "Le jugement dernier",
-        "La résurrection"
-      ],
-      "answer": 1,
-      "explanation": "Al-Jannah c'est le paradis ! C'est un endroit de bonheur et de paix qu'Allah a promis aux croyants. Il y a des jardins magnifiques, des rivières et tout ce que le cœur désire."
-    },
-    {
-      "id": "qcm-kids-islam-0046",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "salat",
-        "quran",
-        "fatiha"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Quelle sourate doit-on réciter dans chaque rakaat (séquence) de la prière ?",
-      "choices": [
-        "Al-Baqara",
-        "Al-Fatiha",
-        "Al-Ikhlas",
-        "Al-Kahf"
-      ],
-      "answer": 1,
-      "explanation": "On récite Al-Fatiha dans chaque rakaat de la prière, c'est obligatoire. C'est pour ça qu'elle est très importante. Le Prophète ﷺ a dit qu'une prière sans Al-Fatiha n'est pas complète."
-    },
-    {
-      "id": "qcm-kids-islam-0047",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "mosque",
-        "history"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Comment s'appelle la grande mosquée de La Mecque ?",
-      "choices": [
-        "Masjid al-Nabawi",
-        "Masjid al-Aqsa",
-        "Masjid al-Haram",
-        "Masjid al-Quba"
-      ],
-      "answer": 2,
-      "explanation": "La grande mosquée de La Mecque s'appelle \"Masjid al-Haram\". C'est la plus grande mosquée du monde et elle entoure la Ka'ba. Des millions de musulmans la visitent chaque année."
-    },
-    {
       "id": "qcm-kids-islam-0048",
-      "topic": "kids-islam",
+      "formation_id": "kids-islam",
+      "categories": [
+        "prophets"
+      ],
+      "category_paths": [
+        [
+          "prophets"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
         "prophets",
         "stories"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
       "question": "Quel prophète est connu pour sa grande patience face à une longue maladie ?",
       "choices": [
         "Ibrahim ﷺ",
@@ -1142,50 +1794,186 @@
       "explanation": "Le prophète Ayyub ﷺ (appelé Job en français) est connu pour sa patience extraordinaire. Il a souffert d'une longue maladie mais n'a jamais arrêté de croire en Allah. Allah l'a guéri et lui a rendu tout ce qu'il avait perdu."
     },
     {
-      "id": "qcm-kids-islam-0049",
-      "topic": "kids-islam",
+      "id": "qcm-kids-islam-0037",
+      "formation_id": "kids-islam",
+      "categories": [
+        "quran",
+        "fatiha"
+      ],
+      "category_paths": [
+        [
+          "quran"
+        ],
+        [
+          "quran",
+          "fatiha"
+        ]
+      ],
       "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
       "tags": [
         "kids",
         "islam",
-        "salat",
-        "rakaat"
+        "quran",
+        "fatiha"
       ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Combien de rakaat (séquences) a la prière de Fajr (matin) ?",
+      "question": "Combien de versets a la sourate Al-Fatiha ?",
       "choices": [
-        "2 rakaat",
-        "3 rakaat",
-        "4 rakaat",
-        "5 rakaat"
-      ],
-      "answer": 0,
-      "explanation": "La prière de Fajr a 2 rakaat (séquences). C'est la prière qui a le moins de rakaat. Les autres prières en ont plus : Dhuhr 4, Asr 4, Maghrib 3, Isha 4."
-    },
-    {
-      "id": "qcm-kids-islam-0050",
-      "topic": "kids-islam",
-      "difficulty": "easy",
-      "tags": [
-        "kids",
-        "islam",
-        "dhikr",
-        "manners"
-      ],
-      "source": null,
-      "created_at": "2026-06-23",
-      "version": 1,
-      "question": "Que veut dire \"Jazakallahu khayran\" ?",
-      "choices": [
-        "Qu'Allah te pardonne",
-        "Gloire à Allah",
-        "Qu'Allah te récompense par le bien",
-        "Si Allah le veut"
+        "3 versets",
+        "5 versets",
+        "7 versets",
+        "10 versets"
       ],
       "answer": 2,
-      "explanation": "\"Jazakallahu khayran\" veut dire \"Qu'Allah te récompense par le bien\". C'est la façon islamique de dire merci. On le dit pour remercier quelqu'un de sa gentillesse ou de son aide."
+      "explanation": "Al-Fatiha a 7 versets. C'est la sourate qu'on récite dans chaque rakaat (séquence) de la prière. C'est pourquoi on l'appelle aussi \"Umm al-Kitab\" (la mère du Livre)."
+    },
+    {
+      "id": "qcm-kids-islam-0015",
+      "formation_id": "kids-islam",
+      "categories": [
+        "quran"
+      ],
+      "category_paths": [
+        [
+          "quran"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "quran",
+        "ramadan"
+      ],
+      "question": "En quel mois le Coran a-t-il commencé à être révélé ?",
+      "choices": [
+        "Mouharram",
+        "Rajab",
+        "Chaban",
+        "Ramadan"
+      ],
+      "answer": 3,
+      "explanation": "Le Coran a commencé à être révélé au Prophète Muhammad ﷺ pendant le mois de Ramadan. C'est pour cela que ce mois est très spécial pour les musulmans."
+    },
+    {
+      "id": "qcm-kids-islam-0016",
+      "formation_id": "kids-islam",
+      "categories": [
+        "quran"
+      ],
+      "category_paths": [
+        [
+          "quran"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "quran"
+      ],
+      "question": "Combien y a-t-il de sourates (chapitres) dans le Coran ?",
+      "choices": [
+        "99",
+        "114",
+        "120",
+        "100"
+      ],
+      "answer": 1,
+      "explanation": "Le Coran contient 114 sourates. La plus longue est Al-Baqara et la plus courte est Al-Kawthar (avec seulement 3 versets)."
+    },
+    {
+      "id": "qcm-kids-islam-0017",
+      "formation_id": "kids-islam",
+      "categories": [
+        "quran"
+      ],
+      "category_paths": [
+        [
+          "quran"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "quran"
+      ],
+      "question": "Quelle est la première sourate du Coran ?",
+      "choices": [
+        "Al-Baqara",
+        "Al-Ikhlas",
+        "Al-Fatiha",
+        "Al-Falaq"
+      ],
+      "answer": 2,
+      "explanation": "Al-Fatiha est la première sourate du Coran. Elle a 7 versets et on la récite dans chaque prière. \"Fatiha\" veut dire \"l'ouverture\"."
+    },
+    {
+      "id": "qcm-kids-islam-0031",
+      "formation_id": "kids-islam",
+      "categories": [
+        "quran"
+      ],
+      "category_paths": [
+        [
+          "quran"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "quran",
+        "arabic"
+      ],
+      "question": "Dans quelle langue le Coran a-t-il été révélé ?",
+      "choices": [
+        "Le persan",
+        "L'hébreu",
+        "L'arabe",
+        "Le turc"
+      ],
+      "answer": 2,
+      "explanation": "Le Coran a été révélé en arabe. C'est pour ça que les musulmans apprennent l'arabe pour lire et comprendre le Coran dans sa langue originale."
+    },
+    {
+      "id": "qcm-kids-islam-0036",
+      "formation_id": "kids-islam",
+      "categories": [
+        "quran"
+      ],
+      "category_paths": [
+        [
+          "quran"
+        ]
+      ],
+      "difficulty": "easy",
+      "source": null,
+      "created_at": "2026-06-23",
+      "tags": [
+        "kids",
+        "islam",
+        "quran"
+      ],
+      "question": "Quelle est la sourate la plus courte du Coran (avec seulement 3 versets) ?",
+      "choices": [
+        "Al-Fatiha",
+        "Al-Ikhlas",
+        "Al-Kawthar",
+        "Al-Falaq"
+      ],
+      "answer": 2,
+      "explanation": "Al-Kawthar est la sourate la plus courte du Coran avec seulement 3 versets. \"Kawthar\" veut dire \"l'abondance\". Allah promet dans cette sourate de nombreux bienfaits au Prophète ﷺ."
     }
   ]
 }

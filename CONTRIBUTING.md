@@ -1,42 +1,65 @@
 # Contributing to Hikma Questions
 
-## Adding a new question
-
-### 1. Choose a topic and ID
-
-Topics are folder names under `questions/`. Use an existing topic or create a new one.
-
-ID format: `{topic-prefix}-{4-digit-number}` — e.g., `qcm-0003`, `qcm-din-fitra-0034`.
-
-### 2. Create the question folder
+## Structure de dossiers
 
 ```
-questions/{topic}/{id}/
+questions/
+  <formation-id>/
+    metadata.yaml               ← formation (type: formation)
+    <category-id>/
+      metadata.yaml             ← catégorie (type: category)
+      [<subcategory-id>/]
+        metadata.yaml           ← sous-catégorie (type: category)
+        <question-id>/
+          metadata.yaml         ← question (sans champ type)
+          fr.md
+          ar.md
 ```
 
-### 3. Write `metadata.yaml`
+La position dans l'arbre de dossiers **est** la hiérarchie. Le build script la traverse automatiquement.
+
+---
+
+## Ajouter une question
+
+### 1. Choisir la formation et la catégorie
+
+Repérer la formation et le(s) dossier(s) catégorie existants. Créer de nouvelles catégories si nécessaire (voir § Ajouter une catégorie).
+
+### 2. Créer le dossier question
+
+```
+questions/<formation>/<category>/[<subcategory>/]<question-id>/
+```
+
+Format de l'ID : `{formation-prefix}-{4-digit-number}` — ex. `qcm-kids-islam-0051`, `qcm-din-fitra-0044`.
+
+### 3. Écrire `metadata.yaml`
 
 ```yaml
-id: qcm-0003
-topic: general
+id: qcm-kids-islam-0051
 difficulty: easy            # easy | medium | hard
 tags:
   - your-tag
+tags_by_lang:               # optionnel : tags spécifiques par langue
+  fr:
+    - votre-tag-fr
+  ar:
+    - وسمك-بالعربية
 languages:
-  - en                      # list every language you provide
-source: null                # optional: "Book Title, p.42"
-created_at: 2026-06-22      # today's date
-version: 1
+  - fr                      # lister toutes les langues fournies
+source: null                # optionnel : "Titre du livre, p.42"
+created_at: 2026-06-23      # date du jour
 ```
 
-### 4. Write language files (`{lang}.md`)
+### 4. Écrire les fichiers langue (`{lang}.md`)
 
-One file per language declared in `metadata.yaml`. Template:
+Un fichier par langue déclarée dans `metadata.yaml`. Template :
 
 ```markdown
 # Question
 
-Your question text here.
+Texte de la question ici.
 
 ## Choices
 
@@ -51,44 +74,64 @@ Your question text here.
 
 ## Explanation
 
-Why this is the correct answer.
+Pourquoi cette réponse est correcte.
 ```
 
-Rules:
-- `Answer` must be a **1-based integer** (1 = first choice).
-- At least 2 choices; 4 is the recommended default.
-- `Explanation` is required.
+Règles :
+- `Answer` doit être un **entier 1-based** (1 = premier choix).
+- Au moins 2 choix ; 4 est la valeur recommandée.
+- `Explanation` est obligatoire.
 
-### 5. Update the language index
-
-Add the question to `indexes/{lang}.yaml` for each language you provide:
-
-```yaml
-  - id: qcm-0003
-    difficulty: easy
-    tags:
-      - your-tag
-```
-
-### 6. Validate and build
+### 5. Valider et builder
 
 ```bash
-python3 scripts/validate.py   # checks structure
-python3 scripts/build.py      # rebuilds dist/questions.json
+python3 scripts/validate.py   # vérifie la structure
+python3 scripts/build.py      # rebuild dist/
 ```
 
-The pre-commit hook runs both steps automatically.
+Le hook pre-commit exécute les deux étapes automatiquement.
 
-## Adding a new topic
+---
 
-1. Create `questions/{new-topic}/` — use kebab-case.
-2. Add questions following the steps above.
-3. Choose a consistent ID prefix (e.g., `qcm-sira-0001` for topic `sira`).
+## Ajouter une catégorie
 
-## Modifying an existing question
+Créer un dossier avec un `metadata.yaml` :
 
-Increment `version` in `metadata.yaml` when the question text, choices, answer, or explanation changes.
+```yaml
+type: category
+id: my-category
+title_fr: Ma catégorie
+title_ar: فئتي
+title_en: My category
+order: 3                    # optionnel, pour trier (sinon tri alphabétique)
+```
 
-## Updating translations
+---
 
-Add or update the `{lang}.md` file and ensure `metadata.yaml → languages` includes the language code.
+## Ajouter une formation
+
+Créer un dossier à la racine de `questions/` avec un `metadata.yaml` :
+
+```yaml
+type: formation
+id: my-formation
+title_fr: Ma formation
+title_ar: تكويني
+title_en: My formation
+description_fr: Description courte
+description_ar: وصف قصير
+description_en: Short description
+languages:
+  - fr
+  - ar
+```
+
+---
+
+## Modifier une question existante
+
+Éditer directement le fichier `{lang}.md` concerné. Aucun champ de version à incrémenter.
+
+## Mettre à jour une traduction
+
+Ajouter ou mettre à jour le fichier `{lang}.md` et s'assurer que `metadata.yaml → languages` inclut le code langue.

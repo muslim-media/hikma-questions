@@ -1,0 +1,12 @@
+type: formation
+id: general
+title_fr: Culture générale
+title_ar: ثقافة عامة
+title_en: General knowledge
+description_fr: Questions de culture générale
+description_ar: أسئلة الثقافة العامة
+description_en: General knowledge questions
+languages:
+  - en
+  - ar
+  - fr

@@ -1,18 +1,27 @@
 {
-  "version": 2,
-  "generated_at": "2026-06-22T22:24:45Z",
-  "languages": {
-    "ar": {
-      "count": 65,
-      "updated_at": "2026-06-22T22:24:45Z"
+  "version": 1,
+  "generated_at": "2026-06-23T12:20:54Z",
+  "formations": {
+    "din-fitra": {
+      "languages": [
+        "ar"
+      ],
+      "question_count": 13
     },
-    "en": {
-      "count": 2,
-      "updated_at": "2026-06-22T22:24:45Z"
+    "general": {
+      "languages": [
+        "ar",
+        "en",
+        "fr"
+      ],
+      "question_count": 2
     },
-    "fr": {
-      "count": 52,
-      "updated_at": "2026-06-22T22:24:45Z"
+    "kids-islam": {
+      "languages": [
+        "ar",
+        "fr"
+      ],
+      "question_count": 50
     }
   }
 }
